@@ -1,0 +1,130 @@
+
+
+<!--Web Design Project
+Author: Yiu Tsz Wing Joanne
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Fruity Food School</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Fruity Food School, Cooking Class, Recipes, Teachers" />
+</head>
+
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font -->
+<link href="//fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- //font -->
+
+<script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	} 
+</script>
+
+<body>
+
+	<!-- navigation -->
+	<div class="topnav" id="myTopnav" style="text-align:center" >
+		<a href="index.html" class="scroll">Home</a>
+		<a href="index.html#about" class="scroll" >About Us</a>
+		<a href="recipe.html" class="active" >Recipes</a>
+		<a href="class.html" class="scroll" >Cooking Class</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+	</div> 
+	<div class="clearfix"> </div>	
+	<!-- //navigation -->
+
+	<!-- banner -->
+	<div class="banner">
+		<div class="header">
+			<div class="container">
+
+			</div>
+		</div>
+		<div class="w3layouts-banner-info">
+			<div class="container">
+				<div class="agileits-logo">
+					<h1><a href="#about">Fruity Food School</a></h1>
+					<p>We are professionals.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	
+
+
+	<!-- about -->
+	<div class="about" id="recipes">
+		<div class="container">
+			<div class="w3l-heading">
+				<h2>Recipes</h2>
+			</div>
+		</div>
+	</div>
+	<div class="submit" style="text-align:center">
+		<form action="upload.html#upload">
+			<input type="submit" value="Upload Your recipe!" id="button-recipe"/>
+		</form>
+	</div>
+
+	<!-- gallery -->
+	<div>
+		<ul id="rig">
+			<li>
+				<a class="rig-cell" href="#">
+					<img class="rig-img" src="images/g1.jpg">
+					<span class="rig-overlay"></span>
+					<span class="rig-text">Lorem Ipsum Dolor</span>
+				</a>
+			</li>
+			<li>
+						<a class="rig-cell" href="#">
+							<img class="rig-img" src="images/g2.jpg">
+							<span class="rig-overlay"></span>
+							<span class="rig-text">Consectetur Adipiscing</span>
+						</a>
+					</li>
+					<li>
+						<a class="rig-cell" href="#">
+							<img class="rig-img" src="images/g3.jpg">
+							<span class="rig-overlay"></span>
+							<span class="rig-text">Vivamus ut Felis</span>
+						</a>
+					</li>
+					<li>
+						<a class="rig-cell" href="#">
+							<img class="rig-img" src="images/g4.jpg">
+							<span class="rig-overlay"></span>
+							<span class="rig-text">Curabitur tempus</span>
+						</a>
+					</li>
+
+				</ul>
+			</div>
+
+
+
+
+			<!-- footer -->
+			<footer>
+				<div class="container">
+					<div class="copyright">
+						<p>© 2017 Fruity Food School. All rights reserved</p>
+					</div>
+				</div>
+			</footer>
+			<!-- //footer -->
+
+		</body>	
+		</html>
